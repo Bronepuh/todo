@@ -1,6 +1,4 @@
-import { Button, Card, TextInput, Title } from "@mantine/core";
-import { useState } from "react";
-import { Plus } from "tabler-icons-react";
+import { Card, Title } from "@mantine/core";
 import { FilterEnum, Task } from "../features/TodosList/utils/types";
 import { todosListStore } from "../features/TodosList/store/todosListStore";
 import { TodosList } from "../features/TodosList/TodosList";
