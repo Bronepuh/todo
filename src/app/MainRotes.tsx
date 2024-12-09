@@ -30,7 +30,7 @@ export const MainRoutes = () => {
       >
         <Routes>
           {/* Главный лейаут */}
-          <Route path="/" element={<Layout />}>
+          <Route path="/todo/" element={<Layout />}>
             <Route index element={<TodoPage />} />
           </Route>
         </Routes>
